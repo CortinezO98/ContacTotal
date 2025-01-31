@@ -80,7 +80,7 @@ main {
 
 
 footer {
-  background-color: #e40613; 
+  background: url("../img/fondoweb1.jpg") no-repeat center center;
   color: white;
   text-align: center;
   padding: 20px;
@@ -108,4 +108,4 @@ footer {
     padding: 15px;
     font-size: 14px;
   }
-}
+} 
