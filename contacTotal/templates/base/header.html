@@ -1,5 +1,5 @@
 {% load static %}
-<header class="bg-black text-white">
+<header id="fullscreen-header" class="fullscreen-header bg-black text-white">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="#medios-hispanos" class="nav-link">Medios Hispanos</a></li>
+                    <li class="nav-item"><a href="#medios-hispanos" class="nav-link">¿Quiénes Somos?</a></li>
                     <li class="nav-item"><a href="#revista" class="nav-link">Revista</a></li>
                     <li class="nav-item"><a href="#noticias" class="nav-link">Noticias</a></li>
                     <li class="nav-item"><a href="#podcast" class="nav-link">Podcast</a></li>
@@ -34,3 +34,28 @@
         </div>
     </div>
 </header>
+
+<header id="compact-header" class="compact-header bg-black text-white fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="{% static 'img/LogoPNG.png' %}" alt="Logo Contacto Total" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavCompact" aria-controls="navbarNavCompact" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavCompact">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#medios-hispanos" class="nav-link">¿Quiénes Somos?</a></li>
+                    <li class="nav-item"><a href="#revista" class="nav-link">Revista</a></li>
+                    <li class="nav-item"><a href="#noticias" class="nav-link">Noticias</a></li>
+                    <li class="nav-item"><a href="#podcast" class="nav-link">Podcast</a></li>
+                    <li class="nav-item"><a href="#streaming" class="nav-link">Streaming</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+

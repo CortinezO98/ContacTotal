@@ -14,3 +14,4 @@ function handleScroll() {
       compactHeader.classList.remove('show');
   }
 }
+
